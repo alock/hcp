@@ -1,3 +1,3 @@
-module go.wday.io/alock/hcp
+module github.com/alock/hcp
 
 go 1.18
