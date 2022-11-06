@@ -16,6 +16,8 @@ import (
 
 const standardSlope = 113
 
+// presidio (72.6/135), metro (73.5/129), harding(72.7/125), corica (73/128), peacock (69.9/125)
+
 func main() {
 	score := flag.Float64("s", 0.0, "adjusted gross score")
 	courseRating := flag.Float64("cr", 72.6, "course rating")
